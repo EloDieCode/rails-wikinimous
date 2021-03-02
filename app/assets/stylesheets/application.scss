@@ -1,5 +1,6 @@
 @import "bootstrap/scss/bootstrap";
 
+
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 
@@ -23,5 +24,20 @@ nav {
 h3 {
   text-decoration: none;
   color: #1687a7;
+}
+
+article {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 120%;
+}
+
+article img {
+  max-width: 100%;
+}
+
+article h1, article h2, article h3, article h4, article h5, article h6 {
+  font-family: "Roboto Slab";
+  font-weight: 400;
 }
 
