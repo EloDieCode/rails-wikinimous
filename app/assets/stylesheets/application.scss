@@ -1,0 +1,27 @@
+@import "bootstrap/scss/bootstrap";
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.container {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+
+  background-color: rgb(242, 234, 234);
+  padding: 8px;
+}
+
+
+h3 {
+  text-decoration: none;
+  color: #1687a7;
+}
+
